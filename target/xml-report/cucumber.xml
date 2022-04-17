@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="2.583">
+    <testcase classname="API testing" name="Successful login via a POST request to $BASE_URL/login" time="2.118">
+        <system-out><![CDATA[Given post request is sent with valid credentials to the api endpoint "https://reqres.in/api/login".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="API testing" name="Unsuccessful login through POST request" time="0.304">
+        <system-out><![CDATA[Given post request is sent with incomplete credentials to the api endpoint "https://reqres.in/api/login".passed
+]]></system-out>
+    </testcase>
+</testsuite>
