@@ -1,4 +1,3 @@
-@api_testing
   Feature: API testing
 
     Scenario: Successful login via a POST request to $BASE_URL/login
