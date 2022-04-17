@@ -1,4 +1,4 @@
-  Feature: API testing
+  Feature: Test '/login' API by sending POST request
 
     Scenario: Successful login via a POST request to $BASE_URL/login
       Given post request is sent with valid credentials to the api endpoint "https://reqres.in/api/login"
