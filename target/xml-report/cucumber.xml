@@ -1,11 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="2.583">
-    <testcase classname="API testing" name="Successful login via a POST request to $BASE_URL/login" time="2.118">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="7" time="5.669">
+    <testcase classname="Test '/login' API by sending POST request" name="Successful login via a POST request to $BASE_URL/login" time="2.277">
         <system-out><![CDATA[Given post request is sent with valid credentials to the api endpoint "https://reqres.in/api/login".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="API testing" name="Unsuccessful login through POST request" time="0.304">
+    <testcase classname="Test '/login' API by sending POST request" name="Unsuccessful login through POST request" time="0.397">
         <system-out><![CDATA[Given post request is sent with incomplete credentials to the api endpoint "https://reqres.in/api/login".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Delete the newly created user" name="Delete the newly created user" time="0.496">
+        <system-out><![CDATA[Given the newly created user is deleted and verify the response.............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get information on a specific user" name="GET information on a specific user" time="1.221">
+        <system-out><![CDATA[Given send a GET request and verify response and correctly structured JSON is returned for a specific, valid user..passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get information on a specific user" name="Verify response when an invalid user is requested" time="0.324">
+        <system-out><![CDATA[Given send a GET request and verify response when an invalid user is requested.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Get a list of users" name="GET a list of users from the $BASE_URL/users endpoint" time="0.275">
+        <system-out><![CDATA[Given send a GET request and verify the response and report on the number of users returned.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="POST to $BASE_URL/users to create a new user" name="Create user and verify response is given with the expected JSON attributes" time="0.36">
+        <system-out><![CDATA[Given a new user is created with its name and job...........................passed
+Then validate the response includes the expected JSON attributes............passed
 ]]></system-out>
     </testcase>
 </testsuite>
