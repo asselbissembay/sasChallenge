@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-17T22:14:43.004Z",
+        "start_timestamp": "2022-04-21T06:48:28.006Z",
         "line": 3,
         "name": "Successful login via a POST request to $BASE_URL/login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2162515100,
+              "duration": 1968036200,
               "status": "passed"
             },
             "line": 4,
@@ -32,7 +32,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-17T22:14:45.292Z",
+        "start_timestamp": "2022-04-21T06:48:30.068Z",
         "line": 6,
         "name": "Unsuccessful login through POST request",
         "description": "",
@@ -42,7 +42,7 @@
         "steps": [
           {
             "result": {
-              "duration": 395997700,
+              "duration": 320891500,
               "status": "passed"
             },
             "line": 7,
@@ -72,7 +72,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-17T22:14:45.701Z",
+        "start_timestamp": "2022-04-21T06:48:30.401Z",
         "line": 3,
         "name": "Delete the newly created user",
         "description": "",
@@ -82,7 +82,7 @@
         "steps": [
           {
             "result": {
-              "duration": 494069200,
+              "duration": 473714800,
               "status": "passed"
             },
             "line": 4,
@@ -106,7 +106,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-17T22:14:46.203Z",
+        "start_timestamp": "2022-04-21T06:48:30.886Z",
         "line": 4,
         "name": "GET information on a specific user",
         "description": "",
@@ -116,7 +116,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1218371100,
+              "duration": 866665800,
               "status": "passed"
             },
             "line": 5,
@@ -129,7 +129,7 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-17T22:14:47.439Z",
+        "start_timestamp": "2022-04-21T06:48:31.762Z",
         "line": 8,
         "name": "Verify response when an invalid user is requested",
         "description": "",
@@ -139,7 +139,7 @@
         "steps": [
           {
             "result": {
-              "duration": 323160500,
+              "duration": 446724400,
               "status": "passed"
             },
             "line": 9,
@@ -163,7 +163,7 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-04-17T22:14:47.767Z",
+        "start_timestamp": "2022-04-21T06:48:32.216Z",
         "line": 4,
         "name": "GET a list of users from the $BASE_URL/users endpoint",
         "description": "",
@@ -173,7 +173,7 @@
         "steps": [
           {
             "result": {
-              "duration": 274103400,
+              "duration": 317326200,
               "status": "passed"
             },
             "line": 5,
@@ -197,7 +197,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-04-17T22:14:48.047Z",
+        "start_timestamp": "2022-04-21T06:48:32.544Z",
         "line": 4,
         "name": "Create user and verify response is given with the expected JSON attributes",
         "description": "",
@@ -207,7 +207,7 @@
         "steps": [
           {
             "result": {
-              "duration": 333460400,
+              "duration": 309473900,
               "status": "passed"
             },
             "line": 5,
@@ -219,7 +219,7 @@
           },
           {
             "result": {
-              "duration": 24273400,
+              "duration": 17464800,
               "status": "passed"
             },
             "line": 6,
